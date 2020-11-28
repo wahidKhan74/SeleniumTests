@@ -18,7 +18,7 @@ public class LoginApp {
 		
 		WebElement pass = driver.findElement(By.id("password"));
 		System.out.println(pass.getTagName() );
-		pass.sendKeys("XX");
+		pass.sendKeys("XXX");
 		
 		WebElement submit = driver.findElement(By.xpath("//*[@id=\"login\"]/form/div[4]/input[12]"));
 		

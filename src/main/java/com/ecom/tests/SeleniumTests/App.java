@@ -15,7 +15,7 @@ public class App
     			.writeTimeout(6000, TimeUnit.SECONDS)
     			.build();
     	okHttpClient.retryOnConnectionFailure();
-    	System.setProperty("webdriver.chrome.driver", "/home/wahidkhan74gmai/selenium-workspace/driver/chromedriver");
+    	System.setProperty("webdriver.chrome.driver", "C:\\Users\\HOME\\Desktop\\Siimplilearn\\SeleniumTests\\driver\\chromedriver.exe");
     	WebDriver driver = new ChromeDriver();
     	RunEnvironment.setWebDriver(driver);
     	
